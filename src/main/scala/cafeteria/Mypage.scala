@@ -5,7 +5,6 @@ import javax.persistence.Table
 import javax.persistence.GeneratedValue
 import javax.persistence.Id
 import javax.persistence.GenerationType
-import lombok.Data
 import scala.beans.BeanProperty
 
 @Entity
