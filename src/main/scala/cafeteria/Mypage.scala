@@ -1,17 +1,10 @@
 package cafeteria
 
-import javax.persistence.Entity
-import javax.persistence.Table
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
-import javax.persistence.GenerationType
 import scala.beans.BeanProperty
+import org.springframework.data.mongodb.core.mapping.Document
 
-@Entity
-@Table(name="Mypage")
+@Document
 class Mypage {
-  @Id
-  @GeneratedValue(strategy=GenerationType.AUTO)
   @BeanProperty
   var id :Long = 0L
   
