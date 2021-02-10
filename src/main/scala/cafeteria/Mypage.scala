@@ -2,9 +2,11 @@ package cafeteria
 
 import scala.beans.BeanProperty
 import org.springframework.data.mongodb.core.mapping.Document
+import org.springframework.data.annotation.Id
 
 @Document
 class Mypage {
+  @Id
   @BeanProperty
   var id :Long = 0L
   
